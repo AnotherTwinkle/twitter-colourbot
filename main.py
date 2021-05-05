@@ -11,7 +11,6 @@ class ColourBot(object):
 	def __init__(self):
 
 		auth = tweepy.OAuthHandler(API_KEY,API_SECRET_KEY) #You'll need to get these from developers.twitter.com
-
 		auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET) 
 
 		self.bot = tweepy.API(auth)
@@ -41,7 +40,6 @@ class ColourBot(object):
 		with BytesIO() as BIO: 
 			img.save(BIO,'PNG')
 			BIO.seek(0) #Copy pasted code from R. Twinkle's color extension XD
-
 
 			media = self.bot.media_upload(filename=f'{color}.png',file=BIO)
 			tweet= self.bot.update_status(status=f'{color} {rgb}',media_ids=[media.media_id])
