@@ -15,7 +15,7 @@ Just do `pip install -U -r requirements.txt`
 
 2. **Create the config file**
 
-Create a file called `config.py` and put the following there:-
+Create a file called `config.py` and put the following variables:-
 
 ```py
 API_KEY = ''
