@@ -5,7 +5,7 @@ A experimental twitter bot that automatically tweets a random colour every 5 min
 
 ## Running
 
-I wourld prefer if you dont run this bot yourself. This code is mainly for my own experimenting and education purposes.
+I wourld prefer if you dont run this bot yourself. This code is mainly for my own experimenting and educational purposes.
 
 Nevertheless, To run an instance of this bot, you'll need access to the Twitter API. Go to the [Twitter Developers](https://developer.twitter.com) to apply for access and create an application.
 
